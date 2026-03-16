@@ -1,0 +1,41 @@
+[Header]
+Description=Renesas Flash Programmer Configuration File
+File Type=3.3
+[Device Info]
+Device Type=8
+Protocol=4
+Device Code=10000A52374631303047474A20FFFF03FF2F0F010002
+Product Name=R7F100GGJ
+Support FAW=TRUE
+Support AWPR=FALSE
+Support ESW=FALSE
+Memory Area Count=2
+External Memory Area Count=0
+[Clock Info]
+Clock Mode=0
+Support Clock=
+OSC Frequency Range=0,0
+CPU Frequency Range=0,0
+SCI Frequency Range=0,0
+CPU Ratio=
+SCI Ratio=
+[Memory Area 0]
+Area Type=0x00000001
+Start Address=0x00000000
+Size=0x00040000
+Erase Unit Size=0x00000800
+Write Unit Size=0x00000100
+Sum Unit Size=0x00000100
+Read Unit Size=0x00000000
+Attribute=0x00000000
+[Memory Area 1]
+Area Type=0x00000010
+Start Address=0x000F1000
+Size=0x00002000
+Erase Unit Size=0x00000100
+Write Unit Size=0x00000100
+Sum Unit Size=0x00000100
+Read Unit Size=0x00000000
+Attribute=0x00000000
+[Checksum]
+Checksum=0xA686FA1E

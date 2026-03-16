@@ -1,0 +1,218 @@
+VERSION
+8
+
+COMMSETTINGS
+0
+COM11
+COM5
+9600
+2
+0
+4
+0
+0
+
+COMMDISPLAY
+0
+
+VERSATAP
+0
+
+CHANNELALIAS
+
+
+
+SEND
+0
+write series
+01 57 31 02 31 2E 30 2E 31 28 32 35 30 37 30 31 30 31 30 37 32 34 29 03 57
+0
+5
+
+SEND
+1
+calib threshold smoke
+01 57 31 02 31 2E 30 2E 32 28 29 03 55
+0
+5
+
+SEND
+2
+calib temperature
+01 57 31 02 31 2E 30 2E 33 28 29 03 54
+0
+5
+
+SEND
+3
+write threshold temperature
+01 57 31 02 31 2E 30 2E 34 28 35 36 2E 35 30 29 03 7B
+0
+5
+
+SEND
+4
+set sens of smoke Orena
+01 57 31 02 31 2E 30 2E 35 28 2B 31 39 39 29 03 4B
+0
+5
+
+SEND
+5
+write threshold IR smoke
+01 57 31 02 31 2E 30 2E 36 28 30 32 35 30 29 03 56
+0
+5
+
+SEND
+6
+write sending heartbeat cycle
+01 57 31 02 31 2E 30 2E 37 28 31 32 33 32 34 35 29 03 53
+0
+5
+
+SEND
+7
+write threshold RSSI Lora 
+01 57 31 02 31 2E 30 2E 38 28 39 30 29 03 56
+0
+5
+
+SEND
+8
+read series
+01 52 31 02 31 2E 30 2E 31 28 29 03 53
+0
+5
+
+SEND
+9
+read firmware
+01 52 31 02 31 2E 30 2E 32 28 29 03 50
+0
+5
+
+SEND
+10
+read temperature
+01 52 31 02 31 2E 30 2E 33 28 29 03 51
+0
+5
+
+SEND
+11
+read smoke Orena  value 
+01 52 31 02 31 2E 30 2E 34 28 29 03 56
+0
+5
+
+SEND
+12
+read IR smoke
+01 52 31 02 31 2E 30 2E 35 28 29 03 57
+0
+5
+
+SEND
+13
+read sens of smoke Orena
+01 52 31 02 31 2E 30 2E 36 28 29 03 54
+0
+5
+
+SEND
+14
+read threshold IR smoke
+01 52 31 02 31 2E 30 2E 37 28 29 03 55
+0
+5
+
+SEND
+15
+read threshold temperature
+01 52 31 02 31 2E 30 2E 38 28 29 03 5A
+0
+5
+
+SEND
+16
+Read sending heartbeat cycle
+01 52 31 02 31 2E 30 2E 39 28 29 03 5B
+0
+5
+
+SEND
+17
+Read Lora channel
+01 52 31 02 31 2E 30 2E 41 28 29 03 23
+0
+5
+
+SEND
+18
+Read threshold RSSI Lora
+01 52 31 02 31 2E 30 2E 42 28 29 03 20
+0
+5
+
+SEND
+19
+On Log
+4F 6E 4C 6F 67
+0
+5
+
+SEND
+20
+Off Log
+4F 66 66 4C 6F 67
+0
+5
+
+SEND
+21
+Alarm
+41 6C 61 72 6D
+1
+7
+
+SEND
+22
+End Alarm
+45 6E 64 41 6C 61 72 6D
+1
+5
+
+SEND
+23
+Switch
+53 77 69 74 63 68
+1
+10
+
+SEND
+24
+Write Fcnt
+01 57 31 02 31 2E 30 2E 39 28 31 30 30 30 30 30 30 30 30 30 29 03 56
+0
+5
+
+SEND
+25
+Read Fcnt
+52 65 61 64 46 63 6E 74
+0
+5
+
+RECEIVE
+0
+
+30 30 30 30 30 30 30 30
+-1
+1
+COMMENT 
+0
+1
+0
+0
+
