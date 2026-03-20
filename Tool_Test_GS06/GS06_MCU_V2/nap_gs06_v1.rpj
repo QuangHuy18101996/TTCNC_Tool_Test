@@ -1,14 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <RfpProject>
   <FileVersion>V1.04.00</FileVersion>
-  <ProductVersion>V3.18.00</ProductVersion>
+  <ProductVersion>V3.11.00</ProductVersion>
   <ParameterFile>R7F100GGG.fcf</ParameterFile>
   <Device>RL78</Device>
   <OperationTab>
     <Endian>RFLG_ENDIAN_LITTLE</Endian>
-    <ProgramFiles>
-      <Item Address="00000000" Type="IHEX">D:\EMIC\GS06\V2.0.0.2\V2.0.0.2\GL302_V3.1.3 (Sounder light).hex</Item>
-    </ProgramFiles>
+    <ProgramFile>D:\GIT\GS06_V2_TF\product\firmware\beta\V2.0.0.0.0\ed\GS112_V3.0.0 (Heat).hex</ProgramFile>
   </OperationTab>
   <OperationSettingTab>
     <FillCode>False</FillCode>
@@ -20,7 +18,6 @@
     <EraseOption>EraseBlock</EraseOption>
     <ChecksumOption>SUMTYPE_SUB16</ChecksumOption>
     <SkipIDVerify>False</SkipIDVerify>
-    <CreateAndWriteHeaders>False</CreateAndWriteHeaders>
     <UseRangeSum>False</UseRangeSum>
     <ListOperation>Erase,Program,Verify</ListOperation>
   </OperationSettingTab>
@@ -69,9 +66,6 @@
     <SetExtraOption>False</SetExtraOption>
     <ExtraOption>FFFFFFFFFFFFFFFFFFFFFFFFFF</ExtraOption>
     <ExtraOptionProtect>False</ExtraOptionProtect>
-    <SetBTBLS>False</SetBTBLS>
-    <BTBLS>0F</BTBLS>
-    <BTBLSProtect>True</BTBLSProtect>
   </DeviceOptionTab>
   <ConnectOptionTab>
     <Tool>COMMTYPE_E2L</Tool>
@@ -103,4 +97,8 @@
     <EndIndex>0</EndIndex>
     <Overwrite>False</Overwrite>
   </UniqueCodeTab>
+  <UserKeyTab>
+    <Enable>False</Enable>
+    <Files />
+  </UserKeyTab>
 </RfpProject>

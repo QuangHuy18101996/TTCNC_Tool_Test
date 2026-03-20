@@ -6,7 +6,7 @@
   <Device>RL78G23</Device>
   <OperationTab>
     <Endian>RFLG_ENDIAN_LITTLE</Endian>
-    <ProgramFile>D:\Dong_bo_OneDriver\OneDrive\EMIC_Testing_Group\QuangHuy_Test_GS06\QuangHuy_Test_GS06\Test_GS06_GW1.2.12_BOOT1.1.0_ED1.1.14\Firmware\GS212_V1.1.14(Smoke).hex</ProgramFile>
+    <ProgramFile>D:\GIT\GS06_V2_TF\product\firmware\beta\V2.0.0.0.0\ed\GS112_V3.0.0 (Heat).hex</ProgramFile>
   </OperationTab>
   <OperationSettingTab>
     <FillCode>False</FillCode>
