@@ -1,0 +1,309 @@
+VERSION
+8
+
+COMMSETTINGS
+0
+COM3
+COM5
+9600
+2
+0
+4
+0
+0
+
+COMMDISPLAY
+0
+
+VERSATAP
+0
+
+CHANNELALIAS
+
+
+
+SEND
+0
+write series
+01 57 31 02 31 2E 30 2E 31 28 32 35 30 37 30 31 30 31 30 37 32 34 29 03 57
+0
+5
+
+SEND
+1
+write Lora channel
+01 57 31 02 31 2E 30 2E 32 28 31 29 03 64
+0
+5
+
+SEND
+2
+write threshold temperature
+01 57 31 02 31 2E 30 2E 34 28 35 36 2E 35 30 29 03 7B
+0
+5
+
+SEND
+3
+set sens of smoke Orena
+01 57 31 02 31 2E 30 2E 35 28 2B 31 39 39 29 03 4B
+0
+5
+
+SEND
+4
+write threshold IR smoke
+01 57 31 02 31 2E 30 2E 36 28 30 32 35 30 29 03 56
+0
+5
+
+SEND
+5
+write sending heartbeat cycle
+01 57 31 02 31 2E 30 2E 37 28 31 32 33 32 34 35 29 03 53
+0
+5
+
+SEND
+6
+write threshold RSSI Lora 
+01 57 31 02 31 2E 30 2E 38 28 39 30 29 03 56
+0
+5
+
+SEND
+7
+write number of resets
+01 57 31 02 31 2E 30 2E 39 28 30 29 03 6E
+0
+5
+
+SEND
+8
+write number of hangs
+01 57 31 02 31 2E 30 2E 41 28 30 29 03 16
+0
+5
+
+SEND
+9
+delete alarm time
+01 57 31 02 31 2E 30 2E 42 28 29 03 25
+0
+5
+
+SEND
+10
+write number of Offline
+01 57 31 02 31 2E 30 2E 43 28 30 29 03 14
+0
+5
+
+SEND
+11
+read series
+01 52 31 02 31 2E 30 2E 31 28 29 03 53
+0
+5
+
+SEND
+12
+read firmware
+01 52 31 02 31 2E 30 2E 32 28 29 03 50
+0
+5
+
+SEND
+13
+read temperature
+01 52 31 02 31 2E 30 2E 33 28 29 03 51
+0
+5
+
+SEND
+14
+read smoke Orena  value 
+01 52 31 02 31 2E 30 2E 34 28 29 03 56
+0
+5
+
+SEND
+15
+read IR smoke renesas
+01 52 31 02 31 2E 30 2E 35 28 29 03 57
+0
+5
+
+SEND
+16
+read sens of smoke Orena
+01 52 31 02 31 2E 30 2E 36 28 29 03 54
+0
+5
+
+SEND
+17
+read threshold IR smoke renesas
+01 52 31 02 31 2E 30 2E 37 28 29 03 55
+0
+5
+
+SEND
+18
+read threshold temperature
+01 52 31 02 31 2E 30 2E 38 28 29 03 5A
+0
+5
+
+SEND
+19
+Read sending heartbeat cycle
+01 52 31 02 31 2E 30 2E 39 28 29 03 5B
+0
+5
+
+SEND
+20
+Read Lora channel
+01 52 31 02 31 2E 30 2E 41 28 29 03 23
+0
+5
+
+SEND
+21
+Read threshold RSSI Lora
+01 52 31 02 31 2E 30 2E 42 28 29 03 20
+0
+5
+
+SEND
+22
+Read number of resets
+01 52 31 02 31 2E 30 2E 43 28 29 03 21
+0
+5
+
+SEND
+23
+Read number of hangs
+01 52 31 02 31 2E 30 2E 44 28 29 03 26
+0
+5
+
+SEND
+24
+Read RSSI when check RF
+01 52 31 02 31 2E 30 2E 45 28 29 03 27
+0
+5
+
+SEND
+25
+Read alarm time
+01 52 31 02 31 2E 30 2E 46 28 29 03 24
+0
+5
+
+SEND
+26
+Read number of Offline
+01 52 31 02 31 2E 30 2E 47 28 29 03 25
+0
+5
+
+SEND
+27
+Check lora
+01 52 31 02 31 2E 30 2E 48 28 29 03 2A
+0
+5
+
+SEND
+28
+On Log
+4F 6E 4C 6F 67
+0
+5
+
+SEND
+29
+Off Log
+4F 66 66 4C 6F 67
+0
+5
+
+SEND
+30
+Alarm
+41 6C 61 72 6D
+1
+7
+
+SEND
+31
+End Alarm
+45 6E 64 41 6C 61 72 6D
+1
+5
+
+SEND
+32
+Switch
+53 77 69 74 63 68
+1
+2
+
+SEND
+33
+Write Fcnt
+01 57 31 02 31 2E 30 2E 39 28 30 29 03 56
+0
+5
+
+SEND
+34
+Read Fcnt
+52 65 61 64 46 63 6E 74
+0
+5
+
+SEND
+35
+Send Lora
+01 01 00 64 00 FC 32
+0
+5
+
+SEND
+36
+Receive Lora
+02 01 FF FF 00 FC 2D
+0
+5
+
+SEND
+37
+
+1F 2F 3F FF 05 FE 20 2F C6
+0
+5
+
+SEND
+38
+test rf
+05 00 00 02 02 82 10 01 01 01
+0
+5
+
+RECEIVE
+0
+
+30 30 30 30 30 30 30 30
+-1
+1
+COMMENT 
+0
+1
+0
+0
+
