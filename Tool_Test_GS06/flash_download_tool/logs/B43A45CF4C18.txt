@@ -1,0 +1,41 @@
+*************************** START ****************************
+Chip: ESP32S3
+Download mode: uart
+Start time: 20260506-08:54
+Connect baud: 115200
+Com:COM13
+connecting...
+manufacturer_id: 0x20
+device_id: 0x4017
+fs:0x200200
+address/file: 0 D:\GIT\TTCNC_Tool_Test\Tool_Test_GS06\flash_download_tool\dl_temp\bin_tmp\downloadPanel1\bootloader.bin
+address/file: 32768 D:\GIT\TTCNC_Tool_Test\Tool_Test_GS06\flash_download_tool\dl_temp\bin_tmp\downloadPanel1\partition-table.bin
+address/file: 167936 D:\GIT\TTCNC_Tool_Test\Tool_Test_GS06\flash_download_tool\dl_temp\bin_tmp\downloadPanel1\ota_data_initial.bin
+address/file: 196608 D:\GIT\TTCNC_Tool_Test\Tool_Test_GS06\flash_download_tool\dl_temp\bin_tmp\downloadPanel1\GL302A_V2.2.14.bin
+Wrote 20928 bytes (13328 compressed) at 0x00000000 in 1.3 seconds (effective 124.4 kbit/s)...
+Wrote 3072 bytes (157 compressed) at 0x00008000 in 0.1 seconds (effective 469.6 kbit/s)...
+Wrote 8192 bytes (31 compressed) at 0x00029000 in 0.0 seconds (effective 2395.3 kbit/s)...
+Wrote 1498000 bytes (944083 compressed) at 0x00030000 in 84.2 seconds (effective 142.3 kbit/s)...
+File: D:\GIT\TTCNC_Tool_Test\Tool_Test_GS06\flash_download_tool\dl_temp\bin_tmp\downloadPanel1\bootloader.bin
+File  md5: 0f596d6f1f42526d1ff8b29f45c92e55
+Flash md5: 0f596d6f1f42526d1ff8b29f45c92e55
+Hash of data verified.
+File: D:\GIT\TTCNC_Tool_Test\Tool_Test_GS06\flash_download_tool\dl_temp\bin_tmp\downloadPanel1\partition-table.bin
+File  md5: 5872b075a54aa4ef1812db02948c3a08
+Flash md5: 5872b075a54aa4ef1812db02948c3a08
+Hash of data verified.
+File: D:\GIT\TTCNC_Tool_Test\Tool_Test_GS06\flash_download_tool\dl_temp\bin_tmp\downloadPanel1\ota_data_initial.bin
+File  md5: 84d04c9d6cc8ef35bf825d51a5277699
+Flash md5: 84d04c9d6cc8ef35bf825d51a5277699
+Hash of data verified.
+File: D:\GIT\TTCNC_Tool_Test\Tool_Test_GS06\flash_download_tool\dl_temp\bin_tmp\downloadPanel1\GL302A_V2.2.14.bin
+File  md5: 1a1bcb35be9bef4820d9eb7d1908f42b
+Flash md5: 1a1bcb35be9bef4820d9eb7d1908f42b
+Hash of data verified.
+
+Leaving...
+com closed
+Total use time: 91 s
+Download result: PASS
+*************************** END ****************************
+

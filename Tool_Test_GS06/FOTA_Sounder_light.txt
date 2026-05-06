@@ -1,0 +1,39 @@
+1. Update qua http:
+
+Topic: safety/01/202811011002/down/ota
+Json:
+{
+  "msgId": "cmd-ota-001",
+  "timestamp": 1740008090,
+  "data": {
+    "command": "OTA_START",
+    "params": {
+      "transport": "HTTP",
+      "version": "2.2.16",
+      "url": "http://222.252.14.147:8123/GS06/GL302A_V2.2.2.bin"
+    }
+  }
+}
+
+2. Update qua FTP:
+Topic: safety/01/202811011002/down/ota
+Json:
+{
+  "type": "cmd",
+  "msgId": "cmd-ota-002",
+  "timestamp": 1700008090,
+  "data": {
+    "command": "OTA_START",
+    "params": {
+      "transport": "FTP",
+      "version": "2.2.14",
+      "ftp": {
+        "host": "222.252.14.147",
+        "port": 21,
+        "username": "g8",
+        "password": "g8@123",
+        "path": "/GL302A_V2.2.14.bin"
+      }
+    }
+  }
+}
